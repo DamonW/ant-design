@@ -31,7 +31,7 @@ class Sider extends React.Component {
         style={{ width: 256 }}
         defaultSelectedKeys={['1']}
         defaultOpenKeys={['sub1']}
-        mode="inline"
+        mode="horizontal"
       >
         <SubMenu key="sub1" title={<span><Icon type="mail" /><span>Navigation One</span></span>}>
           <MenuItemGroup key="g1" title="Item 1">
